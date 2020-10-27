@@ -18,3 +18,8 @@
 ```sh
 kubectl apply -f deployment.yaml -f service.yaml -f ingress.yaml
 ```
+
+### Check
+```sh
+ curl -H 'Host: arch.homework' /otusapp/health
+```
